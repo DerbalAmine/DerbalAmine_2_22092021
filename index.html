@@ -4,6 +4,8 @@
 
 <title></title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<link href="/Users/muham/OneDrive/Documents/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+
 <title>Reservia</title>
 </head>
 <body>
@@ -14,8 +16,8 @@
          </div>
     <nav>
                <ul>
-                   <li><a href="#">Hebergement</a></li>
-                   <li><a href="#">Activite</a></li>
+                   <li class="navigation"><a href="#Herbergement">Hebergement</a></li>
+                   <li class="navigation"><a href="#Activite">Activite</a></li>
                </ul>
          <div class="inscription">
                 <ul>
@@ -27,21 +29,63 @@
 </header>
 
 <main>  
+    <nav class="recherche">
       <h3> Trouver votre Hebergement pour des vacances de reve </h3>
       <h5> En plein centre ou en pleine nature </h5>
-      <form action="/search" id="searchthis" method="get">
+      
+      <form class="search" action="#" method="GET">
+        <input type="search" name="search" type="text" placeholder="Marseille, France" />
+        <input class="search-btn" type="submit" value="Rechercher" />
+        <i class="fas fa-map-marker-alt"></i> 
+      </form>
+    </nav>
+    
+  <div class="filtre">
+        <h4 class="motsfiltres">Filtres</h4>
 
-        <input id="search" name="q" type="text" placeholder="" />
-        <input id="search-btn" type="submit" value="Rechercher" />
+    <div class="filtreentier">    
+        <div class="icone">
+            <i class="fas fa-money-bill-wave"></i>
+        </div>
+        <h4 class="texte">Economique</h4>
+    </div>
+
+    <div class="filtreentier">
+        <div class="icone">
+            <i class="fas fa-child"></i>
+        </div>
+        <h4 class="texte">Famillial</h4>
+    </div>  
+
+    <div class="filtreentier">
+        <div class="icone">
+            <i class="fas fa-heart"></i>
+        </div>
+        <h4 class="texte">Romantique</h4>
+    </div>
+
+    <div class="filtreentier">
+        <div class="icone">
+            <i class="fas fa-dog"></i>
+        </div>
+        <h4 class="texte">Animaux autorises</h4>
+    </div>
+
+        </div>
         
-        </form>
-        
+
+
+        <p>  Plus de 500 logements sont disponibles dans cette ville </p>
+  </div>
+    
 
 <aside></aside>
 
     
 <section>
-<article></article>
+
+
+
 </section>
 
 </main>
