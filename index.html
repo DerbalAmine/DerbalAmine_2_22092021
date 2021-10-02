@@ -2,28 +2,24 @@
 <html>
 <head>
 
-<link rel="stylesheet" type="text/css" href="style.css">
-<link href="/Users/muham/OneDrive/Documents/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="https:/fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="https:/cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <title>Reservia</title>
 </head>
 <body>
 
 <header>
          <div class="logo">
-           <img src="Projet 2 - Reservia/images/logo/Reservia.svg" alt="images de presentation du site"/>
+           <img src="images/logo/Reservia.svg" alt="images de presentation du site"/>
          </div>
-    <nav>
-               <ul>
-                   <li class="navigation"><a href="#Herbergement">Hebergement</a></li>
-                   <li class="navigation"><a href="#Activite">Activite</a></li>
-               </ul>
-         <div class="inscription">
-                <ul>
-                    <li><a href="#">S'incrire</a></li>
-                </ul>
-         </div>  
-    </nav>
+
+          <a class="" href="#Herbergement">Hebergement</a>
+          <a class="" href="#Activite">Activite</a>
+          <a class="" href="#">S'incrire</a></li>
+           
+    
 
 </header>
 
@@ -32,7 +28,7 @@
       <h3> Trouver votre Hebergement pour des vacances de reve </h3>
       <h5> En plein centre ou en pleine nature </h5>
       
-      <form class="search" action="#" method="GET">
+      <form class="search" action="#" method="POST">
         <input type="search" name="search" type="text" placeholder="Marseille, France" />
         <input class="search-btn" type="submit" value="Rechercher" />
         <i class="fas fa-map-marker-alt"></i> 
@@ -78,122 +74,106 @@
   </div>
     
 <!--Debut du Block Hebergement-->   
-<section>
-     <div class="Hebergement">
-       <div class="texte_hebergement">
-           <h3>Hebergement a Marseille</h3>
-       </div>
 
-       <div class="Hebergementmarseille">
-            
-            <div class="photos_hotel">
-             <img src="/Users/muham/OneDrive/Documents/P2_Derbal_Amine/Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="lit superposer" class="pics_mesure">
-            </div>
-          <div class="hotelNameRate">
-           <h4>Auberge la Cannebiere</h4>
-           <p>Nuit a partir de 25€</p>
-           <i class="fas fa-star blueStar"></i>
-           <i class="fas fa-star blueStar"></i>
-           <i class="fas fa-star blueStar"></i>
-           <i class="fas fa-star blueStar"></i>
-           <i class="far fa-star"></i>
-          </div>  
-         
-        </div>   
-
-
+ <section class="hebergement"> 
+    <h3 class="titre_hebergement">Hebergement a Marseille</h3>
       
-        <div class="Hebergementmarseille">
-         
-            <div class="photos_hotel">
-             <img src="/Users/muham/OneDrive/Documents/P2_Derbal_Amine/Projet 2 - Reservia/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Photo d'une chambre avec deux lits simples" class="pics_mesure">
-            </div>
-          
-          <div class="hotelNameRate">
-           <h4>Hotel du port</h4>
-           <p>Nuit a partir de 52€</p>
-           <i class="fas fa-star blueStar"></i>
-           <i class="fas fa-star blueStar"></i>
-           <i class="fas fa-star blueStar"></i>
-           <i class="fas fa-star blueStar"></i>
-           <i class="fas fa-star blueStar"></i>
-          </div>  
+        <section class="Hebergementmarseille">
+          <figure>
+            <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="lit d'hotel" class="images_hotel"> 
+          </figure>     
+            <article class="hotelNameRate">
+              <h4>Auberge la Cannabiere</h4>
+              <p>Nuit a partirde 25€</p>
+              <i class="fas fa-star blueStar"></i>
+              <i class="fas fa-star blueStar"></i>
+              <i class="fas fa-star blueStar"></i>
+              <i class="fas fa-star blueStar"></i>
+              <i class="far fa-star"></i>
+            </article>  
+        </section>
+            
+      
+        <section class="Hebergementmarseille">
+          <figure>
+            <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="lit d'hotel" class="images_hotel"> 
+          </figure>     
+            <article class="hotelNameRate">
+              <h4>Hotel du port</h4>
+              <p>Nuit a partirde 52€</p>
+              <i class="fas fa-star blueStar"></i>
+              <i class="fas fa-star blueStar"></i>
+              <i class="fas fa-star blueStar"></i>
+              <i class="fas fa-star blueStar"></i>
+              <i class="fas fa-star blueStar"></i>
+            </article>  
+        </section>
 
-        </div>
         
-        <div class="Hebergementmarseille">
-           
-            <div class="photos_hotel">
-             <img src="/Users/muham/OneDrive/Documents/P2_Derbal_Amine/Projet 2 - Reservia/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Photo d'une chambre avec un lit simple" class="pics_mesure">
-            </div>
-           
-           <div class="hotelNameRate">
-            <h4>Hotel Les mouettes</h4>
-            <p>Nuit a partir de 76€</p>
-            <i class="fas fa-star blueStar"></i>
-            <i class="fas fa-star blueStar"></i>
-            <i class="fas fa-star blueStar"></i>
-            <i class="fas fa-star blueStar"></i>
-            <i class="far fa-star"></i>
-           </div>  
-         
-        </div>
+        
+        <section class="Hebergementmarseille">
+          <figure>
+            <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="lit d'hotel" class="images_hotel"> 
+          </figure>     
+            <article class="hotelNameRate">
+              <h4>Hotel Les mouettes</h4>
+              <p>Nuit a partirde 76€</p>
+              <i class="fas fa-star blueStar"></i>
+              <i class="fas fa-star blueStar"></i>
+              <i class="fas fa-star blueStar"></i>
+              <i class="fas fa-star blueStar"></i>
+              <i class="far fa-star"></i>
+            </article>  
+        </section>
 
-        <div class="Hebergementmarseille">
+        
+          <section class="Hebergementmarseille">
+            <figure>
+              <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="lit d'hotel" class="images_hotel"> 
+            </figure>     
+              <article class="hotelNameRate">
+                <h4>Hotel du la mer</h4>
+                <p>Nuit a partirde 46€</p>
+                <i class="fas fa-star blueStar"></i>
+                <i class="fas fa-star blueStar"></i>
+                <i class="fas fa-star blueStar"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </article>  
+          </section>
 
-            <div class="photos_hotel">    
-             <img src="/Users/muham/OneDrive/Documents/P2_Derbal_Amine/Projet 2 - Reservia/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Photo d'une chambre avec un lit double sur le thème de la mer" class="pics_mesure">
-            </div>
-         
-          <div class="hotelNameRate">
-            <h4>hotel de la mer</h4>
-            <p>Nuit a partir de 46€</p>
-            <i class="fas fa-star blueStar"></i>
-            <i class="fas fa-star blueStar"></i>
-            <i class="fas fa-star blueStar"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-          </div> 
 
-        </div>
+            <section class="Hebergementmarseille">
+              <figure>
+                <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="lit d'hotel" class="images_hotel"> 
+              </figure>     
+                <article class="hotelNameRate">
+                  <h4>Auberge Le Panier</h4>
+                  <p>Nuit a partirde 23€</p>
+                  <i class="fas fa-star blueStar"></i>
+                  <i class="fas fa-star blueStar"></i>
+                  <i class="fas fa-star blueStar"></i>
+                  <i class="fas fa-star blueStar"></i>
+                  <i class="far fa-star"></i>
+                </article>  
+            </section>
 
-        <div class="Hebergementmarseille">
-
-         <div class="photo_hotel">
-             <img src="/Users/muham/OneDrive/Documents/P2_Derbal_Amine/Projet 2 - Reservia/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Photo d'une chambre d'auberge avec deux lits superposés" class="pics_mesure">
-         </div>
-
-          <div class="hotelNameRate">
-            <h4>Auberge Le Panier</h4>
-            <p>Nuit a partir de 23€</p>
-            <i class="fas fa-star blueStar"></i>
-            <i class="fas fa-star blueStar"></i>
-            <i class="fas fa-star blueStar"></i>
-            <i class="fas fa-star blueStar"></i>
-            <i class="far fa-star"></i>
-          </div>
-
-        </div>
-
-        <div class="Hebergementmarseille">
-         
-         <div class="photo_hotel">   
-             <img src="/Users/muham/OneDrive/Documents/P2_Derbal_Amine/Projet 2 - Reservia/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Photo d'une chambre avec deux lits simples" class="pics_mesure">
-         </div>
-
-           <div class="hotelNameRate">
-            <h4>Auberge Le Panier</h4>
-            <p>Nuit a partir de 23€</p>
-            <i class="fas fa-star blueStar"></i>
-            <i class="fas fa-star blueStar"></i>
-            <i class="fas fa-star blueStar"></i>
-            <i class="fas fa-star blueStar"></i>
-            <i class="fas fa-star blueStar"></i>
-           </div>  
-         
-        </div>
-        <p class="ShowMore">Afficher Plus</p>
-     </div>
+               
+            <section class="Hebergementmarseille">
+              <figure>
+                <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="lit d'hotel" class="images_hotel"> 
+              </figure>     
+                <article class="hotelNameRate">
+                  <h4>Hotel chez Amina</h4>
+                  <p>Nuit a partirde 96€</p>
+                  <i class="fas fa-star blueStar"></i>
+                  <i class="fas fa-star blueStar"></i>
+                  <i class="fas fa-star blueStar"></i>
+                  <i class="fas fa-star blueStar"></i>
+                  <i class="fas fa-star blueStar"></i>
+                </article>  
+            </section>
+     
 
 <!--Fin du Block Hebergement-->
 
@@ -253,8 +233,7 @@
        </div>
 
 <!--Fin du block les plus populaires-->
-</div>
-</section>
+ </section>
 
 <div class="titre_activite">
     <h3>Activite a Marseille</h3>
