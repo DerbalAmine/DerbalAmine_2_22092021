@@ -1,0 +1,242 @@
+ body
+{
+    margin: 2%;
+    box-sizing: border-box; 
+    width: auto;
+    height: auto; 
+    font-family: 'Raleway', sans-serif;
+}
+
+main
+{
+margin: 1%;
+}
+
+
+ul
+{
+    list-style-type: none;
+    padding: auto;
+    margin:auto;
+}
+a
+{
+    text-decoration: none; 
+    color: inherit;
+}
+
+h3
+{
+    font-weight: 700;
+}
+.logo {
+    margin-right: 0px;
+    padding-top: 0px;
+    
+}
+#logo {
+    width:99%;
+    height:99%;
+    margin-right: 2%;
+}
+
+nav 
+{
+    width: 100%;
+    margin-left: auto;
+}
+nav li
+{
+    padding-top: 40px;
+}
+
+nav a 
+{
+    padding: 40px 30px 0;
+}
+
+
+nav li a:hover
+{
+    color:#0065FC;
+    border-top: 2px solid #0065FC;
+    font-size: initial;
+    padding-top: 30px;
+}
+.menu
+{
+    padding: 10px;
+}
+.sinscrire
+{
+    font-size: 15px;
+    color:#0065FC;
+    font-weight: bolder;
+}
+.flex-container
+{
+    display: flex;
+}
+
+.flex-container nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.containericone 
+{
+    background-color: #f2f2f2;
+    border-radius: 15px 0 0 15px;
+    width: 50px;
+    height: 51px;
+    flex-shrink: 0;
+}
+.containericone i 
+{
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+.filtre
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    width:100%;
+    margin: -7% 0% 0% ;
+}
+
+.motsfiltres 
+{
+    font-size: 22px;
+    width: 6%;
+    padding: 0;
+    padding-top:2%;
+    vertical-align: middle;
+    height: 3.4rem;
+   
+}
+
+.filtreentier :hover
+{
+    background-color:blue;
+    align-items: center;
+    background-color: #f3f8ff;
+    transform: scale(1.050);
+
+}
+
+.filtreentier
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3.4rem;
+    width: 20%;
+    border: solid 2px #d9d9d9;
+    border-radius: 2rem;
+    margin-top: 20px;
+}
+
+.texte 
+{
+    margin-left: 10%;
+    font-size: 110%;
+}
+
+.icone
+{
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    color: blue;
+    height: 2.1rem;
+    width: calc(33.33333% - 40px);
+    min-height: 3.6rem;
+    min-width: 3.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -5px;
+    
+}
+
+.iconeinformation 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 0;
+   
+}
+
+.fainfo
+{
+    height: 10px;
+    width: 10px;
+    border: solid 1px #D9D9D9;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    justify-content: center;
+    color: blue;
+}
+
+.btn_search
+{
+    width: 30px;
+    background-color: #0065FC;
+    border: none;
+    padding: 0;
+    border-radius: 0 15px 15px 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    flex-shrink: 0;
+    display: none;
+}
+.searchInput
+{
+    padding: 0 0 0 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 230px;
+    border: solid 1px #f2f2f2;
+
+}
+.searchButton i {
+    display: none;
+}
+
+.texte
+{
+    margin-left: 10%;
+    font-size: 110%;
+}
+
+
+.recherche
+{
+    margin-bottom: 96px;
+}
+.fa-star
+{
+    font-size: .8rem;
+    letter-spacing: 2px;
+}
+
+.blueStar 
+{
+    color: #0065FC;
+}
+
+.greyStar
+{
+    color: #f2f2f2;
+}
