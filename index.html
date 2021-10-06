@@ -10,32 +10,33 @@
 </head>
 <body>
 
-<header>
-         <div class="logo">
-           <img src="images/logo/Reservia.svg" alt="images de presentation du site"/>
-         </div>
-
-          <a class="" href="#Herbergement">Hebergement</a>
-          <a class="" href="#Activite">Activite</a>
-          <a class="" href="#">S'incrire</a>
-           
-    
-
+<header class="flex-container">
+  <nav>
+    <ul>
+          <li id="logo"><img src="images/logo/Reservia.svg" alt="images de presentation du site" class="logo"/></li>
+          <li class="menu"><a href="#Herbergement">Hebergement</a></li>
+          <li class="menu"><a href="#Activite">Activite</a></li>
+          <li class="menu"><a href="#" class="sinscrire" >S'incrire</a></li>        
+     </ul>
+  </nav>
 </header>
 
 <main>  
-    <nav class="recherche">
+  <div class="recherche">
       <h3> Trouver votre Hebergement pour des vacances de reve </h3>
       <h5> En plein centre ou en pleine nature </h5>
       
       <form class="search" action="#" method="POST">
-        <input type="search" name="search" placeholder="Marseille, France" />
-        <input class="search-btn" type="submit" value="Rechercher" />
-        <i class="fas fa-map-marker-alt"></i> 
+         <input class="searchInput" type="search" name="search" placeholder="Marseille, France" />
+         <input class="search-btn" type="submit" value="Rechercher" />
+       <div class="containericone">
+         <i class="fas fa-map-marker-alt"></i> 
+       </div>  
       </form>
-    </nav>
+  </div>
     
   <div class="filtre">
+
         <h4 class="motsfiltres">Filtres</h4>
 
     <div class="filtreentier">    
@@ -65,14 +66,15 @@
         </div>
         <h4 class="texte">Animaux autorises</h4>
     </div>
+  </div> 
 
     <div class="iconeinformation">
+      <div class="fainfo">
            <i class="fas fa-info-circle"></i>
-           <p>  Plus de 500 logements sont disponibles dans cette ville </p>
-    </div>
-        
-  </div>
-    
+      </div>
+           <p> &nbsp; de 500 logements sont disponibles dans cette ville </p>
+    </div>     
+      
 <!--Debut du Block Hebergement-->   
 
  <section class="hebergement"> 
@@ -237,51 +239,51 @@
 
 <!--Debut du block Activites a marseille-->
 
-<section class="activites-container">
+<section class="activites">
 
   <div class="titre_activite">
     <h3>Activite a Marseille</h3>
   </div>
 
-      <div class="activite_vieux_port">
-          <a href="#" class="un-et-trois">
+      <div class="activite_vieuxport">
+          <a href="#" class="">
             <figure>
               <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg " alt=" Photo d'un port de plaisance rempli de bateaux " class="image-un-et-trois">
-              <figcaption> <b>Vieux Port</b></figcaption> 
+              <figcaption> <b>Vieux Port</b> </figcaption> 
             </figure> 
           </a>
       </div>
 
 
       <div class="commun deux-et-quatre">
-          <a href="#" class="deux-et-quatres">
+          <a href="#" class="">
               <figure>
                   <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg " alt=" Photo d'un port de plaisance rempli de bateaux " class="image-deux-et-quatre-haute">
                   <figcaption><b>Fort de pomègues</b></figcaption>
                   <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"  alt=" Photo d'un port de plaisance rempli de bateaux " class="image-deux-et-quatre-basse">
-                  <figcaption><b>Ïle du Frioul</b></figcaption>   
+                  <figcaption> <b>Ïle du Frioul</b> </figcaption>   
               </figure>
           </a>
       </div>
       
 
       <div class="commun shade-un-et-trois">
-          <a href="#" class="un-et-trois">
+          <a href="#" class="">
             <figure>
               <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt=" Photo d'un port de plaisance rempli de bateaux " class="image-un-et-trois">
-            <figcaption><b>Parc National des Calanques</b></figcaption>
+            <figcaption> <b>Parc National des Calanques</b> </figcaption>
             </figure>
           </a>
       </div>
 
 
       <div class="commun deux-et-quatre">
-          <a href="#" class="deux-et-quatres">
+          <a href="#" class="">
               <figure>
                   <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt=" Photo d'un port de plaisance rempli de bateaux " class="image-deux-et-quatre-haute">
-                <figcaption><b>Notre-Dame-de-la-Garde</b></figcaption>
+                <figcaption> <b>Notre-Dame-de-la-Garde</b> </figcaption>
                   <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt=" Photo d'un port de plaisance rempli de bateaux " class="image-deux-et-quatre-basse">
-                <figcaption><b>Parc Longchamp</b></figcaption>
+                <figcaption> <b>Parc Longchamp</b> </figcaption>
               </figure>
           </a>
       </div> 
