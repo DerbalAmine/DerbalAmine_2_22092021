@@ -33,7 +33,7 @@ a
     color: inherit;
 }
 
-h3
+h1
 {
     font-weight: 700;
 }
@@ -82,6 +82,7 @@ nav li a:hover
 
 
 /*recherher*/
+
 .flex-container
 {
     display: flex;
@@ -103,20 +104,24 @@ nav li a:hover
 {
     margin-bottom: 30px;
     height: 50px;
+    
 }
 .search 
 {
     margin-bottom: 30px;
 }
 
-.search h2{
-    margin-bottom: 10px;
+.search h1{
+    margin-bottom: 30px;
 }
 
 .search p{
-    margin-top: 10px;
+    margin-top: 30px;
 }
-
+.recherche{
+    align-items: center;
+    justify-content: center
+}
 
 .searchInput{
     padding: 15px;
@@ -125,6 +130,19 @@ nav li a:hover
     width: 230px;
     border: solid 1px #f2f2f2;
 
+}
+.searchFormSubmitInput_2 {
+    width: 30px;
+    background-color: #0065FC;
+    border: none;
+    padding: 0;
+    border-radius: 0 15px 15px 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    flex-shrink: 0;
+    display: none;
 }
 
 .searchButton 
@@ -145,17 +163,21 @@ nav li a:hover
     background-color: #f2f2f2;
     border-radius: 15px 0 0 15px;
     width: 50px;
-    height: 51px;
+    height: 50px;
+    flex-shrink: 0;
    
 }
 .containericone i 
 {
     margin: auto;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 .searchButton i {
     display: none;
 }
+
+
+
 .filtre
 {
     display: flex;
@@ -224,29 +246,27 @@ nav li a:hover
     
 }
 
-.iconeinformation 
+
+.info 
 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     margin-bottom: 0;
-   
 }
 
-.fainfo
-{
+.iconeinfo {
     height: 20px;
     width: 20px;
     border: solid 1px #D9D9D9;
     border-radius: 100%;
     display: flex;
     align-items: center;
-    padding: 0.1%;
+    padding: 0.5%;
     justify-content: center;
-    color: rgb(0, 26, 255);
+    color: blue;
 }
-
 
 
 .texte
@@ -276,14 +296,19 @@ nav li a:hover
 
 /*hebergement*/
 .hebergements 
-{
-    flex: 2;
-    width: 98%;
-    height: 70%;
+{  
     background-color: #f2f2f2;
     border-radius: 20px;
     margin: 1%;
-    padding:2%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 65%;
+    margin-right: 30px;
+}
+.hotelsTab{
+    flex-wrap: wrap;
+    display: flex;
 }
 .hebergements h3 
 {
@@ -291,14 +316,16 @@ nav li a:hover
     padding: 0;
 }
 .container-items {
-    display: grid;
     height: 220px;
-    grid-template-rows: 1fr 40%;
     box-sizing: border-box;
     border: 5px solid #fff;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 0 7px #c1c1c1;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    
 }
 .container-items:hover,
 .popularFrame:hover,
@@ -313,6 +340,8 @@ nav li a:hover
     width: 100%;
     height: 126px;
     object-fit: cover;
+    flex-direction: column;
+    display: flex;
 }
 
 .popular 
@@ -342,10 +371,8 @@ nav li a:hover
 
 .popular
 {
-    flex: 1;
-    height: 80%;
-    margin: 1%;
-    padding:2%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .popularIcon {
@@ -362,11 +389,13 @@ nav li a:hover
 }
 
 .popularDescription {
-    flex: 1;
+    display: flex;
     background-color: #fff;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     padding: 10px;
+    flex-grow: 1;
+    flex-basis: 16%;
 }
 .popularFrame {
     height: 145px;
@@ -398,143 +427,9 @@ nav li a:hover
     font-weight: 700;
     font-size: 1.2rem;
 }  
-/*activite
-.titreactivite {
-    margin: auto;
-    margin-left: 1%;
-    padding-top: 3%;
-}
-.activites {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: auto;
-}
-.commun {
-    border-radius: 20px;
-    width: 23%;
-    margin: 1%;
-    height: 126px;
 
-}
-.un_deux {
-    height: 440px;
-    width: 100%;
-    border-radius: 20px 20px 0px 0px;
-}
-.description_un_deux {
-    height: 40px;
-    width: 95%;
-    padding: 1%;
-    margin: 4%;
-    text-align:left;
-}
-.deux_trois {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: column wrap;
-    align-items: stretch;
-    flex-wrap: wrap;
-    height: 500px;
-    width: 100%;
-}
-.deux_et_trois {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: column wrap;
-    align-items: stretch;
-    flex-wrap: wrap;
-    height: 500px;
-    width: 100%;
-}
-.haute {
-    height: 260px;
-    box-shadow: 0 0 7px #c1c1c1;
-    width: 100%;
-    flex-grow: 1;
-    border-radius: 20px;
-    margin: 2%;
-}
-.basse {
-    height: 180px;
-    box-shadow: 0 0 7px #c1c1c1;
-    width: 100%;
-    flex-shrink: 1;
-    border-radius: 20px;
-    margin: 8% 2% 0 2%;
-}
-.description_deux_trois_haut{
-    padding: 4px;
-    margin: 3%;
-}
-
-.description_deux_trois_basse{
-    padding: 10px;
-}
-.trois_quatre {
-    box-shadow: 0 0 7px #c1c1c1;
-    height: 500px;
-}
-.image-deux-et-quatre-haute {
-    width: 100%;
-    height: 230px;
-    margin:0px;
-    border-radius: 20px 20px 0px 0px;
-}
-.description_quatre_cinq_haute {
-    width: 98%;
-    height: 30px;
-    margin: 4%;
-    border-radius: 20px 20px 0px 0px;
-}
-.image-deux-et-quatre-basse {
-    width: 100%;
-    height: 125px;
-    margin: 0px;
-    border-radius: 20px 20px 0px 0px;
-
-}
-.description_quatre_cinq_basse {
-    width: 98%;
-    height: 30px;
-    margin: 1%;
-    border-radius: 20px 20px 0px 0px;
-}
-.activitiesTab{
-    display: grid;
-    grid-template: repeat(12, 1fr) / repeat(4, 1fr);
-    gap: 37.5px;
-    height: 450px;
-    grid-auto-flow: column;
-}
-.image-act1{
-    height: 150px;
-    
-}
-
-.activityFrame img {
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
-
-}
-.activityFrame .image-act1 {
-    width: 100%;
-    object-fit: cover;
-    height: 20%;
-
-}
-
-.activityDescription {
-    align-self: center;
-    background-color: #fff;
-    padding-left: 10px;
-    font-size: 1.1rem;
-    font-weight: 700;
-    
-}
-/*fin*/
-#activitiesAnchor {
+#activitiesAnchor 
+{
     margin: auto;
     margin-left: 1%;
     padding-top: 3%;
