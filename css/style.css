@@ -295,22 +295,29 @@ nav li a:hover
 
 
 /*hebergement*/
-.hebergements 
+
+#hebergements 
 {  
+    float: left;
+    width: 60%;
+    border: 1px solid black;
+    height: 70%;
     background-color: #f2f2f2;
     border-radius: 20px;
-    margin: 1%;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex: 1 65%;
-    margin-right: 30px;
+    flex-wrap:wrap;
+    margin-right: 60%;
+    justify-content: space-between;
+    align-content: space-around;
+    flex: 2;
+    margin: 1%;
+    padding: 2%;
 }
 .hotelsTab{
     flex-wrap: wrap;
     display: flex;
 }
-.hebergements h3 
+.hebergements h2 
 {
     margin: 0;
     padding: 0;
@@ -322,10 +329,9 @@ nav li a:hover
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 0 7px #c1c1c1;
-    width: 380px;
-    display: flex;
-    flex-direction: column;
-    
+    width: 280px;
+    display: grid;
+    grid-template-rows: 1fr 40%;
 }
 .container-items:hover,
 .popularFrame:hover,
@@ -344,18 +350,9 @@ nav li a:hover
     display: flex;
 }
 
-.popular 
-{
-    background-color: #f2f2f2;
-    border-radius: 20px;
-    margin: 0;
-    height: 70%;
-    width:35%;
-}
+
 .hotelDescription 
 {
-    flex-direction: column;
-    justify-content: space-around;
     background-color: #fff;
     padding: 5px 10px;
 }
@@ -369,10 +366,20 @@ nav li a:hover
 }
 /*populaire*/
 
-.popular
+#popular
 {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 170px;
+  border: 1px solid blue;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  margin: 0;
+  height: 70%;
+  width:30%;
+  float: right;
+
+  
 }
 
 .popularIcon {
