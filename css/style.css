@@ -379,23 +379,26 @@ nav li a:hover
   width:30%;
   float: right;
 
-  
 }
 
-.popularIcon {
+.popularIcon 
+{
     justify-content: space-between;
     align-items: baseline;
 }
-.popularIcon h3 {
+.popularIcon h3 
+{
     margin-top: 0;
     margin-bottom: 25px;
 }
 
-.popularIcon i {
+.popularIcon i
+{
     font-size: 1.5rem;
 }
 
-.popularDescription {
+.popularDescription 
+{
     display: flex;
     background-color: #fff;
     flex-direction: row;
@@ -404,7 +407,8 @@ nav li a:hover
     flex-grow: 1;
     flex-basis: 16%;
 }
-.popularFrame {
+.popularFrame 
+{
     height: 145px;
     border: 5px solid #fff;
     border-radius: 15px;
@@ -414,23 +418,27 @@ nav li a:hover
     overflow: hidden;
 }
 
-.popularFrame img {
+.popularFrame img 
+{
     width: 40%;
     height: 100%;
     object-fit: cover;
 }
-.hotelName {
+.hotelName 
+{
     margin: 0;
     font-weight: 700;
     font-size: 1.1rem;
 }
 
-.popularDescription .hotelName .p {
+.popularDescription .hotelName .p 
+{
     margin-top: 8px;
     margin-bottom: 0;
 }
 
-.showMore {
+.showMore 
+{
     font-weight: 700;
     font-size: 1.2rem;
 }  
@@ -442,13 +450,15 @@ nav li a:hover
     padding-top: 3%;
 }
 
-.activites {
+.activites 
+{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     height: auto;
 }
-.commun {
+.commun 
+{
     border-radius: 20px;
     width: 23%;
     margin: 1%;
