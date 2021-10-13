@@ -300,7 +300,6 @@ nav li a:hover
 {  
     float: left;
     width: 60%;
-    border: 1px solid black;
     height: 70%;
     background-color: #f2f2f2;
     border-radius: 20px;
@@ -309,7 +308,6 @@ nav li a:hover
     margin-right: 60%;
     justify-content: space-between;
     align-content: space-around;
-    flex: 2;
     margin: 1%;
     padding: 2%;
 }
@@ -371,7 +369,6 @@ nav li a:hover
   display: flex;
   flex-wrap: wrap;
   margin-left: 170px;
-  border: 1px solid blue;
   background-color: #f2f2f2;
   border-radius: 20px;
   margin: 0;
@@ -380,26 +377,29 @@ nav li a:hover
   float: right;
 
 }
-
-.popularIcon 
+.popularTab
 {
     justify-content: space-between;
-    align-items: baseline;
 }
-.popularIcon h3 
-{
-    margin-top: 0;
-    margin-bottom: 25px;
-}
-
-.popularIcon i
+.popularIcon 
 {
     font-size: 1.5rem;
+    padding: 2%;
+    justify-content: flex-end;
+    margin-top: 10px;
+    
+}
+.popularTexte 
+{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    flex-grow: 1;
+    flex-direction: row;
 }
 
 .popularDescription 
 {
-    display: flex;
     background-color: #fff;
     flex-direction: row;
     justify-content: space-between;
@@ -409,13 +409,15 @@ nav li a:hover
 }
 .popularFrame 
 {
-    height: 145px;
+    height: 140px;
     border: 5px solid #fff;
     border-radius: 15px;
     margin-bottom: 30px;
     box-shadow: 0 0 7px #c1c1c1;
     box-sizing: border-box;
     overflow: hidden;
+    display: flex;
+    width: 85%;
 }
 
 .popularFrame img 
@@ -437,7 +439,7 @@ nav li a:hover
     margin-bottom: 0;
 }
 
-.showMore 
+.ShowMore 
 {
     font-weight: 700;
     font-size: 1.2rem;
@@ -557,7 +559,7 @@ nav li a:hover
 /* Footer */
 footer 
 {
-    padding: 50px 50px 50px;
+    padding: 40px 40px 40px;
     background-color: #f2f2f2;
     display: flex;
     flex-direction: row;
@@ -576,7 +578,5 @@ footer a:hover
     font-weight: 600;
     color: #0065FC;
 }
-.about
-{
-    display: flex;
-}
+
+  
