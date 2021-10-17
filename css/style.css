@@ -347,8 +347,9 @@ nav li a:hover
     
     display: flex;
     flex-direction: column;
-    max-width: 220px;
-    margin: auto
+    width: 300px;
+    margin: auto;
+
 }
 
 
