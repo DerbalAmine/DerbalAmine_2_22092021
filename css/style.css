@@ -300,10 +300,18 @@ nav li a:hover
     border-radius: 20px;
     display: flex;
     flex-wrap:wrap;
-    margin: 1%;
+    margin: 3%;
     padding: 2%;
     flex: 1 0 65%;
-    
+}
+.titleHebergement
+{
+ 
+ position: relative;
+ flex: 1 0 70%;
+ margin: 0;
+ padding: 0;
+
 }
 .hotelsTab{
     flex-wrap: wrap;
@@ -315,7 +323,6 @@ nav li a:hover
     padding: 0;
 }
 .container-items {
-    height: 220px;
     box-sizing: border-box;
     border: 5px solid #fff;
     border-radius: 15px;
@@ -380,7 +387,7 @@ nav li a:hover
      border-radius: 20px;
      margin: 0;
      float: right;
-     flex: 1 0 30%;
+     flex: 1 0 25%;
 
 }
 .popularTab
@@ -413,7 +420,7 @@ nav li a:hover
     flex-basis: 16%;
     
 }
-.popularFrame 
+.figurePopular
 {
     height: 140px;
     border: 5px solid #fff;
@@ -424,13 +431,15 @@ nav li a:hover
     overflow: hidden;
     display: flex;
     width: 85%;
-
+}
+.popularFrame 
+{
+    display: flex;
 }
 
 .popularFrame img 
 {
     width: 40%;
-    height: 100%;
     object-fit: cover;
 }
 .hotelName 
