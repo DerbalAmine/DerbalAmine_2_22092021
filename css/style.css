@@ -33,11 +33,12 @@ a
     color: inherit;
 }
 
-h1
+h1 
 {
     font-weight: 700;
 }
-h2{
+h2
+{
     font-weight: 700;
 }
 
@@ -226,6 +227,7 @@ nav li a:hover
 {
     margin-left: 10%;
     font-size: 110%;
+    font-weight: 700;
 }
 
 .icone
@@ -335,7 +337,7 @@ nav li a:hover
     
 }
 .container-items:hover,
-.popularFrame:hover,
+.figurePopular:hover,
 .shade-un-et-trois:hover,
 .haute:hover, .basse:hover
 {
