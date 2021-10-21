@@ -107,6 +107,7 @@ nav li a:hover
 {
     margin-bottom: 30px;
     height: 50px;
+    display: flex;
     
 }
 .search 
@@ -173,6 +174,8 @@ nav li a:hover
     width: 50px;
     height: 50px;
     margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -186,8 +189,7 @@ nav li a:hover
     align-items: flex-start;
     height: auto;
     align-self:auto;
-    width: 75%;
-    margin: 1%;
+    width: 80%;
     padding:1%;
 }
 
