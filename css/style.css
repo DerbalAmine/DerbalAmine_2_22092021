@@ -3,9 +3,6 @@
 body
 {
     margin: 0;
-    box-sizing: border-box; 
-    width: auto;
-    height: auto; 
     font-family: 'Raleway', sans-serif;
 }
 
@@ -14,12 +11,6 @@ main
 margin: 1%;
 }
 /*header*/
-header 
-{
-    justify-content: space-between;
-    margin-bottom: 35px;
-    
-}
 
 ul
 {
@@ -33,21 +24,12 @@ a
     color: inherit;
 }
 
-h1 
-{
-    font-weight: 700;
-}
-h2
-{
-    font-weight: 700;
-}
-
-
 #logo 
 {
     width: 80%;
-    margin-top: 10px;
+    margin-top: 21px;
     padding-TOP: 0%;
+    padding-right: 53%;
 }
 
 nav 
@@ -87,20 +69,13 @@ nav li a:hover
 
 /*recherher*/
 
-.flex-container
-{
-    display: flex;
-    
-}
+
 
 .flex-container nav ul 
 {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: flex-end;
-    margin: 0;
-    padding-bottom: 20px;
+   
 }
 
 .searchBar
@@ -122,12 +97,9 @@ nav li a:hover
 .search p{
     margin-top: 30px;
 }
-.recherche{
-    align-items: center;
-    justify-content: center
-}
 
-.searchInput{
+.searchInput
+{
     padding: 15px;
     font-size: 1.1rem;
     font-weight: 600;
@@ -183,28 +155,17 @@ nav li a:hover
 .filtre
 {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    height: auto;
-    align-self:auto;
+    justify-content: space-between;
     width: 80%;
-    padding:1%;
 }
 
 .motsfiltres 
 {
     font-size: 22px;
-    width: 6%;
-    padding: 0;
-    padding-top:2%;
-    vertical-align: middle;
-    height: 3.4rem;
    
 }
 
-.filtreentier :hover
+.filtre :hover
 {
     background-color:blue;
     align-items: center;
@@ -216,13 +177,29 @@ nav li a:hover
 .filtreentier
 {
     display: flex;
-    flex-direction: row;
     align-items: center;
     height: 3.4rem;
     width: 20%;
     border: solid 2px #d9d9d9;
     border-radius: 2rem;
-    margin-top: 20px;
+}
+.filtreentier1
+{
+    display: flex;
+    align-items: center;
+    height: 3.4rem;
+    width: 15%;
+    border: solid 2px #d9d9d9;
+    border-radius: 2rem;
+}
+.filtreentier2
+{
+    display: flex;
+    align-items: center;
+    height: 3.4rem;
+    width: 17%;
+    border: solid 2px #d9d9d9;
+    border-radius: 2rem;
 }
 
 .texte 
@@ -252,13 +229,11 @@ nav li a:hover
 .info 
 {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     align-items: center;
-    margin-bottom: 0;
 }
 
-.iconeinfo {
+.iconeinfo 
+{
     height: 20px;
     width: 20px;
     border: solid 1px #D9D9D9;
@@ -306,6 +281,7 @@ nav li a:hover
     margin: 3%;
     padding: 2%;
     flex: 1 0 65%;
+    margin-left: auto;
 }
 .titleHebergement
 {
@@ -324,7 +300,8 @@ nav li a:hover
     margin: 0;
     padding: 0;
 }
-.container-items {
+.container-items 
+{
     box-sizing: border-box;
     border: 5px solid #fff;
     border-radius: 15px;
@@ -334,7 +311,7 @@ nav li a:hover
     display: flex;
     grid-template-rows: 1fr 40%;
     margin: 15px 15px;
-    
+    height: 220px; 
 }
 .container-items:hover,
 .figurePopular:hover,
@@ -346,17 +323,16 @@ nav li a:hover
 }
 .container-items img 
 {
-    width: 100%;
-    height: 126px;
+    height: 62%;
     object-fit: cover;
-    flex-direction: column;
-    display: flex;
+    width: 100%;
 }
 .figureArt{
     
     display: flex;
     flex-direction: column;
     width: 300px;
+    height: 100%;
     margin: auto;
 
 }
@@ -365,7 +341,7 @@ nav li a:hover
 .hotelDescription 
 {
     background-color: #fff;
-    padding: 5px 10px;
+    padding: 10px 10px;
 }
 
 .hotelDescription p 
@@ -388,20 +364,13 @@ nav li a:hover
      flex-wrap: wrap;
      background-color: #f2f2f2;
      border-radius: 20px;
-     margin: 0;
-     float: right;
      flex: 1 0 25%;
 
-}
-.popularTab
-{
-    justify-content: space-between;
 }
 .popularIcon 
 {
     font-size: 1.5rem;
     padding: 2%;
-    justify-content: flex-end;
     margin: 21px;
     
 }
@@ -409,8 +378,6 @@ nav li a:hover
 {
     display: flex;
     margin: 9%;
-    flex-grow: 1;
-    flex-direction: row;
 }
 
 .popularDescription 
@@ -447,8 +414,14 @@ nav li a:hover
 .hotelName 
 {
     margin: 0;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.1rem;
+}
+
+.popularDescription .hotelName .p 
+{
+    margin-top: 8px;
+    margin-bottom: 0;
 }
 
 .ShowMore 
@@ -491,20 +464,15 @@ nav li a:hover
 .description-un-et-trois 
 {
     height: 80px;
-    width: 95%;
-    padding: 5%;
     margin: 4%;
-    text-align:left;
 }
 
 .deux-et-quatres 
 {
     display: flex;
-    justify-content: space-around;
-    align-items: stretch;
     flex-wrap: wrap;
     height: 100%;
-    width: 100%;
+    align-content: flex-start;
 }
 .haute 
 {
@@ -540,7 +508,7 @@ nav li a:hover
 .shade-un-et-trois 
 {
     box-shadow: 0 0 7px #c1c1c1;
-    height: 500px;
+    height: 450px;
 }
 .image-deux-et-quatre-haute 
 {
@@ -565,7 +533,7 @@ nav li a:hover
 .image-deux-et-quatre-basse 
 {
 
-    height: 65%;
+    height: 70%;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
