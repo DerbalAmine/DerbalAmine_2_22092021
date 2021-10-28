@@ -26,10 +26,9 @@ a
 
 #logo 
 {
-    width: 80%;
     margin-top: 21px;
     padding-TOP: 0%;
-    padding-right: 53%;
+    padding-right: 52%;
 }
 
 nav 
@@ -327,7 +326,8 @@ nav li a:hover
     object-fit: cover;
     width: 100%;
 }
-.figureArt{
+.figureArt
+{
     
     display: flex;
     flex-direction: column;
@@ -365,6 +365,8 @@ nav li a:hover
      background-color: #f2f2f2;
      border-radius: 20px;
      flex: 1 0 25%;
+     justify-content: space-between;
+     align-items: center;
 
 }
 .popularIcon 
@@ -574,4 +576,258 @@ footer a:hover
     color: #0065FC;
 }
 
-  
+
+
+
+
+
+
+@media only screen and (max-width: 700px){
+    body
+    {
+        margin: 1%;
+    }
+    
+    main
+    {
+        margin:1%;
+    }
+    .searchFormSubmitInput_2
+    {
+        width: 40px;
+        background-color: #0065FC;
+        border: none;
+        padding: 0;
+        border-radius: 0 15px 15px 0;
+        color: #fff;
+        font-weight: 600;
+        font-size: 1.1rem;
+        cursor: pointer;
+        flex-shrink: 0;
+        display: initial;
+    }
+
+    .searchButton
+    {
+        display: none;
+        width: 0;
+    }
+
+    .searchBar
+    {
+
+        flex-direction: initial;
+    }
+    .popularIcon 
+    {
+        font-size: 1.5rem;
+        margin: 21px;
+        padding: inherit;
+    }
+
+    .filtre
+    {
+        display: flex;
+        flex-direction: column;
+        width: 96%;
+        margin: 0;
+        align-items:flex-start;
+    }
+
+    .filtreentier2 
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 3.4rem;
+        width: auto;
+        border: solid 2px #d9d9d9;
+        border-radius: 2rem;
+        margin:2%;
+        padding-right:4%;
+    }
+    .filtreentier1 
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 3.4rem;
+        width: auto;
+        border: solid 2px #d9d9d9;
+        border-radius: 2rem;
+        margin:2%;
+        padding-right:4%;
+    }
+    .filtreentier 
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 3.4rem;
+        width: auto;
+        border: solid 2px #d9d9d9;
+        border-radius: 2rem;
+        margin:2%;
+        padding-right:4%;
+    }
+    #activitiesAnchor 
+    {
+        margin: 5%;
+        margin-left: 1%;
+        padding-top: 3%;
+    }
+
+    .iconeinfo
+    {
+        height: 20px;
+        width: 20px;
+        border: solid 2px #D9D9D9;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        margin: 1%;
+        margin-top: -3%;
+    }
+    
+   
+    .searchInput::placeholder
+    {
+        color: #c2c2c2;
+    }
+    
+    .containerHotels
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        width: auto;
+
+    }
+    
+    #hebergements, .popular
+    {
+        background-color: #f2f2f2;
+        border-radius: 20px;
+        padding:1%;
+        margin:1%;
+    }
+
+    #hebergements 
+    {
+        background-color: white; 
+        display: block; 
+    }
+
+    .popularFrame img
+    {
+        object-fit: cover;
+    }
+
+    .hotelsTab 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .activites 
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .commun 
+    {
+        border-radius: 20px;
+        width: auto;
+        margin: 1%;
+        height: 100%;
+    }
+
+    .un-et-trois
+    {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .image-un-et-trois
+    {
+        height: 120px;
+        width: auto;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .description-un-et-trois 
+    {
+        height: 40px;
+        margin: 4%;
+    }
+    
+    .flex-container nav ul
+    {
+        flex: 1 2 auto;
+        justify-content:flex-start;
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+   
+    nav li a:hover{
+        color: #0065FC;
+        border-bottom: 2px solid#0065FC;
+        font-weight: bolder;
+        font-size: 15px;
+        width: 4%;
+        padding-bottom: 15px;
+        border-top: none;
+        
+    }
+    
+    nav li a
+    {
+        color:#0065FC;
+        font-weight: bolder;
+        font-size: 15px;
+        padding-bottom: 20px;
+        border-top: none;
+
+    }
+    
+    
+    nav
+    {
+        width: auto;
+        margin-left: auto;
+    }
+    
+    .flex-container
+    {
+        width: auto;
+        margin: 3%;
+       
+    }
+
+    #logo
+    {
+        width: 55%;
+        height: 30%;
+        margin: 0px;
+        margin-left: -25%;
+    }
+
+    .menu
+    {
+        padding: 0px;
+        margin: 0px;
+        margin-top: 20px;
+    }
+    
+    footer 
+    {
+        flex:2 1 auto;
+        flex-direction:column;
+        margin: 2%;
+        padding: 0;
+    } 
+
+}
