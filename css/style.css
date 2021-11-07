@@ -288,15 +288,12 @@ nav li a:hover
     overflow: hidden;
     box-shadow: 0 0 7px #c1c1c1;
     flex: 1 0 30%;
-    display: flex;
     grid-template-rows: 1fr 40%;
     margin: 15px 15px;
     height: 220px; 
 }
 .container-items:hover,
-.figurePopular:hover,
-.shade-un-et-trois:hover,
-.haute:hover, .basse:hover
+.figurePopular:hover
 {
     transform: scale(1.0300);
     background-color: #f3f8ff;
@@ -305,14 +302,14 @@ nav li a:hover
 {
     height: 62%;
     object-fit: cover;
-    width: 100%;
+   
+   
 }
 .figureArt
 {
     
     display: flex;
-    flex-direction: column;
-    width: 300px;
+    flex-direction: column;            
     height: 100%;
     margin: auto;
 
@@ -622,7 +619,9 @@ footer a:hover
     {
         color: #c2c2c2;
     }
-    
+    .container-items{
+        margin: 15px -10px;
+    }
     .containerHotels
     {
         display: flex;
@@ -665,6 +664,10 @@ footer a:hover
     .activity
     {
         flex-direction: column;
+        display: contents;
+    }
+    .activityFigure{
+        margin: 20px;
     }
     .activityArt1, .activityArt3, .activityArt4
     {
