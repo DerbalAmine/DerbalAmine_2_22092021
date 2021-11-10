@@ -23,7 +23,10 @@ a
     text-decoration: none; 
     color: inherit;
 }
-
+.searchHeaderTitle
+{
+    font-size: 1.6em;
+}
 .logo 
 {
     margin-right: 0px;
@@ -185,7 +188,11 @@ nav li a:hover
     font-weight: bold;
 
 }
-
+.filterTitle
+{
+    padding-left: 6px;
+    padding-right:10px;
+}
 
 .icone
 {
@@ -353,13 +360,12 @@ nav li a:hover
 {
     font-size: 1.5rem;
     padding: 2%;
-    margin: 21px;
     
 }
 .popularTexte 
 {
     display: flex;
-    margin: 9%;
+    margin-left: 10%;
 }
 
 .popularDescription 
@@ -373,7 +379,7 @@ nav li a:hover
 }
 .figurePopular
 {
-    height: 140px;
+    height: 150px;
     border: 5px solid #fff;
     border-radius: 15px;
     margin-bottom: 30px;
@@ -554,7 +560,7 @@ footer a:hover
     
     main
     {
-        margin:1%;
+        margin:0;
     }
     .searchFormSubmitInput_2
     {
@@ -570,19 +576,21 @@ footer a:hover
         flex-shrink: 0;
         display: initial;
     }
-    #logo{
+    #logo
+    {
         width: 65%;
         height: 30%;
         margin: 0px;
     }
 
-    .logo{
+    .logo
+    {
         margin-left: -45px;
         margin-top: -12px;
         
     }
-
-    .sinscrire {
+    .sinscrire 
+    {
         font-weight: bolder;
         font-size: 15px;
         color:#0065FC;
@@ -596,7 +604,14 @@ footer a:hover
         display: none;
         width: 0;
     }
-
+    .recherche
+    {
+        margin:  0 4% 0 4%;
+    }
+    .filters
+    {
+        margin: 0 4% 0 4%;
+    }
     .searchBar
     {
 
@@ -608,19 +623,32 @@ footer a:hover
         margin: 10px;
         padding: inherit;
     }
-
+    .filterTitle
+    {
+        padding-left: 5px;
+        padding-left: 5px;
+        font-size: 15px;
+    }
+    .figurePopular
+    {
+        margin-left: 27px;
+    }
     .filtersTitle
     {
         width: 100%;
     }
-    
+    #popular
+    {
+        border-radius: 0;
+        margin: 0 4% 0 4%;
+    }
    
     .searchInput::placeholder
     {
         color: #c2c2c2;
     }
     .container-items{
-        margin: 15px -10px;
+        margin: 15px -15px;
     }
     .containerHotels
     {
@@ -643,23 +671,40 @@ footer a:hover
     {
         background-color: white; 
         display: block; 
+        margin: 0 4% 0 4%;
     }
-
-    .popularFrame img
+    .bloc2
+    {
+        margin: 0 4% 0 4%;
+    }
+        .popularFrame img
     {
         object-fit: cover;
     }
-
+    .activityTitle
+    {
+        padding-left: 20px;
+    }
     .hotelsTab 
     {
         display: flex;
         flex-direction: column;
     }
-    
+    .hotelName{
+        font-size: 17px;
+    }
+    .popularDescription
+    {
+        padding: 7px;
+    }
     .container-block
     {
         padding: 0rem 0.1rem;
         flex-direction: column;
+    }
+    .texteinfo
+    {
+        font-size: 15px;
     }
     .activity
     {
@@ -667,7 +712,7 @@ footer a:hover
         display: contents;
     }
     .activityFigure{
-        margin: 20px;
+        margin: 10px;
     }
     .activityArt1, .activityArt3, .activityArt4
     {
@@ -726,7 +771,7 @@ footer a:hover
     
     nav li a
     {
-        color:#0065FC;
+        
         font-weight: bolder;
         font-size: 15px;
         padding-bottom: 20px;
@@ -783,7 +828,9 @@ footer a:hover
     {
         width: 100%;
     }
-    
+    #popular{
+        background-color: white;
+    }
     .popular
     {
         width: auto;
