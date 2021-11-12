@@ -561,7 +561,7 @@ footer a:hover
 
 
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 649px){
     
     main
     {
@@ -582,7 +582,6 @@ footer a:hover
 
     .logo
     {
-        margin-left: -40px;
         margin-top: -12px;
         
     }
@@ -638,7 +637,7 @@ footer a:hover
     #popular
     {
         border-radius: 0;
-        margin: 0 4% 0 4%;
+        margin: 0;
     }
    
     .searchInput::placeholder
@@ -689,7 +688,7 @@ footer a:hover
         flex-direction: column;
     }
     .hotelName{
-        font-size: 17px;
+        font-size: 18px;
     }
     .hotelRate1{
         padding-top: 45px;
@@ -756,6 +755,8 @@ footer a:hover
     {
         justify-content:flex-start;
         flex-wrap: wrap;
+        padding: 0;
+        margin-bottom: 40px;
     }
 
    
@@ -815,7 +816,7 @@ footer a:hover
 
 
 /* Tablet version */
-@media only screen and (min-width : 768px) and (max-width: 1024px){
+@media only screen and (min-width : 650px) and (max-width: 1024px){
 
     
     .body
