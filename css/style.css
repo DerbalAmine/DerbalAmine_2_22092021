@@ -273,9 +273,7 @@ nav li a:hover
 .titleHebergement
 {
  
- position: relative;
  flex: 1 0 70%;
- padding: 0;
 
 }
 .hotelsTab{
@@ -295,7 +293,6 @@ nav li a:hover
     overflow: hidden;
     box-shadow: 0 0 7px #c1c1c1;
     flex: 1 0 30%;
-    grid-template-rows: 1fr 40%;
     margin: 15px 15px;
     height: 220px; 
 }
@@ -332,9 +329,15 @@ nav li a:hover
 .hotelDescription p 
 {
     margin: 0;
+    padding-top: 5px;
 }
 .hotelRate {
     word-spacing: -1ch;
+    padding-top: 3px;
+}
+.hotelRate1 {
+    word-spacing: -1ch;
+    padding-top: 40px;
 }
 .containerHotels
 {
@@ -349,7 +352,7 @@ nav li a:hover
      flex-wrap: wrap;
      background-color: #f2f2f2;
      border-radius: 20px;
-     flex: 1 0 25%;
+     flex: 1 0 28%;
      justify-content: space-between;
      align-items: center;
      padding: 1%;
@@ -364,8 +367,8 @@ nav li a:hover
 }
 .popularTexte 
 {
-    display: flex;
-    margin-left: 10%;
+   
+    margin-left: 8%;
 }
 
 .popularDescription 
@@ -376,6 +379,11 @@ nav li a:hover
     flex-grow: 1;
     flex-basis: 16%;
     
+}
+.popularDescription p 
+{
+    margin: 0;
+    padding-top: 5px;
 }
 .figurePopular
 {
@@ -534,14 +542,15 @@ footer
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: -1%;
     
 }
 
 footer li 
 {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+
 }
 
 footer a:hover 
@@ -549,10 +558,6 @@ footer a:hover
     font-weight: 600;
     color: #0065FC;
 }
-
-
-
-
 
 
 
@@ -564,16 +569,8 @@ footer a:hover
     }
     .searchFormSubmitInput_2
     {
-        width: 40px;
-        background-color: #0065FC;
-        border: none;
-        padding: 0;
-        border-radius: 0 15px 15px 0;
-        color: #fff;
-        font-weight: 600;
-        font-size: 1.1rem;
-        cursor: pointer;
-        flex-shrink: 0;
+        width: 50px;
+        border-radius: 17px 17px 17px 17px;
         display: initial;
     }
     #logo
@@ -585,7 +582,7 @@ footer a:hover
 
     .logo
     {
-        margin-left: -45px;
+        margin-left: -40px;
         margin-top: -12px;
         
     }
@@ -621,7 +618,6 @@ footer a:hover
     {
         font-size: 1.5rem;
         margin: 10px;
-        padding: inherit;
     }
     .filterTitle
     {
@@ -631,7 +627,9 @@ footer a:hover
     }
     .figurePopular
     {
-        margin-left: 27px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+        width: 92%;
     }
     .filtersTitle
     {
@@ -693,9 +691,15 @@ footer a:hover
     .hotelName{
         font-size: 17px;
     }
+    .hotelRate1{
+        padding-top: 45px;
+    }
     .popularDescription
     {
         padding: 7px;
+    }
+    .popularDescription p{
+        font-size: 15px;
     }
     .container-block
     {
@@ -750,10 +754,8 @@ footer a:hover
     
     .flex-container nav ul
     {
-        flex: 1 2 auto;
         justify-content:flex-start;
         flex-wrap: wrap;
-        width: auto;
     }
 
    
@@ -772,10 +774,7 @@ footer a:hover
     nav li a
     {
         
-        font-weight: bolder;
         font-size: 15px;
-        padding-bottom: 20px;
-        border-top: none;
 
     }
     
@@ -840,7 +839,7 @@ footer a:hover
     #hebergements
     {
         margin:2%;
-        width: 100%;
+        width: 90%;
     }
     .ShowMore 
     {
@@ -882,10 +881,14 @@ footer a:hover
         margin-left: 55px;
 
     }
-
-    .activityImg1, .activityImg4
+    .activityImg1
     {
-        height: 18rem;
+        height: 21.2rem;
+        object-position: 0px 0;
+    }
+    .activityImg4
+    {
+        height: 22.7rem;
         object-position: 0px 0;
     }
     .activityImg2
@@ -895,17 +898,17 @@ footer a:hover
     }
     .activityImg3
     {
-        height: 5rem;
+        height: 7rem;
         object-position: 50% 50%;
     }
     .activityImg5
     {
-        height: 6rem;
+        height: 8rem;
         object-position: 50% 80%;
     }
     .activityImg6
     {
-        height: 6rem;
+        height: 8rem;
         object-position: 50% 40%;
     }
     .actiMi
