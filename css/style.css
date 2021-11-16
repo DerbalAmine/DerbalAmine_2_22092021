@@ -84,7 +84,6 @@ nav li a:hover
     justify-content: flex-end;
        
 }
-
 .searchBar
 {
     margin-bottom: 30px;
@@ -102,8 +101,7 @@ nav li a:hover
     margin-bottom: 30px;
 }
 
-.search p
-{
+.search p{
     margin-top: 30px;
 }
 
@@ -403,7 +401,7 @@ nav li a:hover
     box-sizing: border-box;
     overflow: hidden;
     display: flex;
-    width: 85%;
+    width: 88%;
 }
 
 .popularFrame img 
@@ -639,9 +637,8 @@ font-weight: 700;
     }
     .figurePopular
     {
-        margin-left: 15px;
-        margin-bottom: 10px;
-        width: 92%;
+        margin-left: 30px;
+        width: 87%;
     }
     .filtersTitle
     {
@@ -650,7 +647,7 @@ font-weight: 700;
     #popular
     {
         border-radius: 0;
-        margin: 0 -2% 0 3;
+        margin: 0;
     }
    .info
     {
@@ -663,7 +660,10 @@ font-weight: 700;
     }
     .container-items
     {
-        margin: 17px -26px 15px -7px;
+       
+    }
+    .titleHebergement{
+        
     }
     .containerHotels
     {
@@ -678,8 +678,7 @@ font-weight: 700;
     {
         background-color: #f2f2f2;
         border-radius: 20px;
-        padding:1%;
-        margin:1%;
+
     }
 
     #hebergements 
@@ -690,16 +689,21 @@ font-weight: 700;
     }
     .bloc2
     {
-        margin: 0 0% 0 1%;
-    }
-        .popularFrame img
-    {
-        object-fit: cover;
+        margin: 0 3% 0 3%;
     }
     .activityTitle
     {
-        padding-left: 20px;
+        padding-left: 12px;
     }
+    .ShowMore
+    {
+        padding-left: 0;
+    }
+    .popularFrame img
+    {
+        object-fit: cover;
+    }
+    
     .hotelsTab 
     {
         display: flex;
@@ -708,6 +712,7 @@ font-weight: 700;
     .hotelName
     {
         font-size: 18px;
+        margin-left: 2px;
     }
     .hotelRate1
     {
@@ -716,9 +721,11 @@ font-weight: 700;
     .popularDescription
     {
         padding: 7px;
+        padding-left: 16px;
     }
     .popularDescription p{
         font-size: 15px;
+        margin-left: 2px;
     }
     .container-block
     {
@@ -755,7 +762,7 @@ font-weight: 700;
     }
     .actiBloc1, .actiBloc2
     {
-        margin: 0rem;
+        margin: 45px 0 45px 0;
     }
     .activityImg2,.activityImg3, .activityImg5, .activityImg6{
         height: 10rem;
