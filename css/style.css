@@ -1,5 +1,3 @@
-@import  url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap' );
-
 body
 {
     margin: 0;
@@ -38,6 +36,7 @@ a
 {
     margin-left: -2%;
     width:99%;
+    
 }
 nav 
 {
@@ -62,7 +61,8 @@ nav li a:hover
     font-size: initial;
     padding-top: 30px;
 }
-.menu
+.menu 
+
 {
     padding: 33px;
 }
@@ -82,7 +82,7 @@ nav li a:hover
 {
     display: flex;
     justify-content: flex-end;
-   
+       
 }
 
 .searchBar
@@ -97,11 +97,13 @@ nav li a:hover
     margin-bottom: 30px;
 }
 
-.search h1{
+.search h1
+{
     margin-bottom: 30px;
 }
 
-.search p{
+.search p
+{
     margin-top: 30px;
 }
 
@@ -206,10 +208,10 @@ nav li a:hover
     color: blue;
     font-size: 1.3rem;
 }
-.info{
+.info
+{
     display: flex;
     align-items: center;
-    margin: 1rem 0 2rem 0;
 }
 .iconeinfo
 {
@@ -267,13 +269,14 @@ nav li a:hover
     flex-wrap:wrap;
     margin: 3%;
     padding: 1%;
-    flex: 1 0 65%;
+    flex: 1 0 68%;
     margin-left: auto;
 }
 .titleHebergement
 {
  
  flex: 1 0 70%;
+ padding-left: 20px;
 
 }
 .hotelsTab{
@@ -306,7 +309,6 @@ nav li a:hover
 {
     height: 62%;
     object-fit: cover;
-   
    
 }
 .figureArt
@@ -344,6 +346,12 @@ nav li a:hover
     display: flex;
     align-items: center;
 }
+.ShowMore 
+{
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-left: 20px;
+}  
 /*populaire*/
 
 #popular
@@ -352,7 +360,7 @@ nav li a:hover
      flex-wrap: wrap;
      background-color: #f2f2f2;
      border-radius: 20px;
-     flex: 1 0 28%;
+     flex: 1 0 25%;
      justify-content: space-between;
      align-items: center;
      padding: 1%;
@@ -420,6 +428,7 @@ nav li a:hover
 {
     font-weight: 700;
     font-size: 1.2rem;
+    padding-left: 20px;
 }  
 
 
@@ -510,7 +519,7 @@ width: 100%;
 }
 .activityImg4{
     height: 27rem;
-    object-position: -180px 0% ;
+    object-position: -155px 0% ;
 }
 .activityImg5{
     height: 9rem;
@@ -542,8 +551,8 @@ footer
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: -1%;
+    justify-content: space-around;
+    margin: 0;
     
 }
 
@@ -557,6 +566,10 @@ footer a:hover
 {
     font-weight: 600;
     color: #0065FC;
+}
+.about1
+{
+font-weight: 700;
 }
 
 
@@ -637,15 +650,20 @@ footer a:hover
     #popular
     {
         border-radius: 0;
-        margin: 0;
+        margin: 0 -2% 0 3;
     }
-   
+   .info
+    {
+       padding-top: 10px;
+       padding-bottom: 20px;
+    }
     .searchInput::placeholder
     {
         color: #c2c2c2;
     }
-    .container-items{
-        margin: 15px -15px;
+    .container-items
+    {
+        margin: 17px -26px 15px -7px;
     }
     .containerHotels
     {
@@ -672,7 +690,7 @@ footer a:hover
     }
     .bloc2
     {
-        margin: 0 4% 0 4%;
+        margin: 0 0% 0 1%;
     }
         .popularFrame img
     {
@@ -687,10 +705,12 @@ footer a:hover
         display: flex;
         flex-direction: column;
     }
-    .hotelName{
+    .hotelName
+    {
         font-size: 18px;
     }
-    .hotelRate1{
+    .hotelRate1
+    {
         padding-top: 45px;
     }
     .popularDescription
@@ -705,6 +725,7 @@ footer a:hover
         padding: 0rem 0.1rem;
         flex-direction: column;
     }
+    
     .texteinfo
     {
         font-size: 15px;
@@ -714,7 +735,8 @@ footer a:hover
         flex-direction: column;
         display: contents;
     }
-    .activityFigure{
+    .activityFigure
+    {
         margin: 10px;
     }
     .activityArt1, .activityArt3, .activityArt4
@@ -816,7 +838,7 @@ footer a:hover
 
 
 /* Tablet version */
-@media only screen and (min-width : 650px) and (max-width: 1024px){
+@media only screen and (min-width : 650px) and (max-width: 1340px){
 
     
     .body
@@ -842,10 +864,10 @@ footer a:hover
         margin:2%;
         width: 90%;
     }
-    .ShowMore 
+    .container-items
     {
-        display: none;
-    } 
+    flex: 1 0 45%;
+    }
     .container-items img
     {
         width: 112%;
@@ -868,7 +890,8 @@ footer a:hover
     {
         margin-right: 55px;
     }
-    .filtre{
+    .filtre
+    {
         margin-right: 1rem;
     }
     .popularTab
@@ -881,6 +904,10 @@ footer a:hover
         padding: 0;
         margin-left: 55px;
 
+    }
+    .activity
+    {
+        margin: 4rem;
     }
     .activityImg1
     {
@@ -909,7 +936,7 @@ footer a:hover
     }
     .activityImg6
     {
-        height: 8rem;
+        height: 8.1rem;
         object-position: 50% 40%;
     }
     .actiMi
