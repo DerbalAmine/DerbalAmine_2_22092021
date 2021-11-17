@@ -588,7 +588,7 @@ font-weight: 700;
     {
         width: 65%;
         height: 30%;
-        margin: 0px;
+        margin-left: -28px;
     }
 
     .logo
@@ -660,10 +660,11 @@ font-weight: 700;
     }
     .container-items
     {
-       
+       margin: 25px -13px 15px -13px;
     }
-    .titleHebergement{
-        
+    .titleHebergement
+    {
+        padding-left: 0;
     }
     .containerHotels
     {
@@ -689,7 +690,7 @@ font-weight: 700;
     }
     .bloc2
     {
-        margin: 0 3% 0 3%;
+        margin: 0 4% 0 5%;
     }
     .activityTitle
     {
@@ -826,8 +827,9 @@ font-weight: 700;
     .menu
     {
         padding: 0px;
-        margin: 0px;
+        margin: -7px;
         margin-top: 20px;
+        padding-left: 30px;
     }
     
     footer 
@@ -836,7 +838,9 @@ font-weight: 700;
         flex-direction:column;
         padding: 0;
     } 
-
+    .about, .ourHotels, .assistance{
+        margin-top: 22px;
+    }
 }
 
 
