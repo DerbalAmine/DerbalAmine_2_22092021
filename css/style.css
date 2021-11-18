@@ -540,32 +540,41 @@ width: 100%;
 /* Footer */
 footer 
 {
-    padding: 40px 40px 40px;
     background-color: #f2f2f2;
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-around;
-    margin: 0;
-    
-}
-
-footer li 
-{
-    margin-bottom: 20px;
-
-}
-
-footer a:hover 
-{
-    font-weight: 600;
-    color: #0065FC;
-}
-.about1
-{
-font-weight: 700;
-}
-
+  }
+  
+  footer .h3 
+  {
+    font-size: initial;
+  }
+  
+  footer ul 
+  {
+    list-style-type: none;
+    margin-left: -40px;
+  }
+  footer ul li 
+  {
+    margin-bottom: 10px;
+  }
+  
+  footer a 
+  {
+    text-decoration: none;
+    color: black;
+  }
+  
+  footer div 
+  {
+    margin-left: -290px;
+  }
+  
 
 
 @media only screen and (max-width: 649px){
@@ -786,7 +795,7 @@ font-weight: 700;
     }
 
    
-    nav li a:hover
+    .menu a:hover
     {
         color: #0065FC;
         border-bottom: 2px solid#0065FC;
@@ -828,15 +837,19 @@ font-weight: 700;
         padding-left: 30px;
     }
     
-    footer 
+    footer
     {
-        flex:2 1 auto;
+       
         flex-direction:column;
         padding: 0;
+        align-items: flex-start;
+        
     } 
-    .about, .ourHotels, .assistance{
-        margin-top: 22px;
+    footer div 
+    {
+        margin-left: 45px;
     }
+   
 }
 
 
@@ -962,4 +975,10 @@ font-weight: 700;
     {
         margin-right: 0;
     }
+    
+      footer div {
+        margin-left: 0px;
+      }
+    
+    
 }
