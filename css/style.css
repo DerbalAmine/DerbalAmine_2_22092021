@@ -49,7 +49,7 @@ nav a
 }
 
 
-nav li a:hover
+.menu a:hover
 {
     color:#0065FC;
     border-top: 2px solid #0065FC;
@@ -506,8 +506,9 @@ width: 100%;
     height: 12rem;
     object-position: 0px 39%;
 }
-.activityImg3{
-    height: 8rem;
+.activityImg3
+{
+    height: 125px;
     object-position: 0px 10% ;
 }
 .activityImg4{
@@ -519,7 +520,7 @@ width: 100%;
     object-position: 0px 5% ;
 }
 .activityImg6{
-    height: 11.5rem;
+    height: 11.3rem;
     object-position: 0px 0% ;
 }
 .activityImg{
