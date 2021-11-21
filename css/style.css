@@ -293,7 +293,8 @@ nav a
     height: 220px; 
 }
 .container-items:hover,
-.figurePopular:hover
+.figurePopular:hover,
+.activityFigure:hover
 {
     transform: scale(1.0300);
     background-color: #f3f8ff;
@@ -538,43 +539,47 @@ width: 100%;
 
 
 /* Footer */
-footer 
-{
-    background-color: #f2f2f2;
-    height: auto;
-    padding-bottom: 20px;
-    padding-top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  
-  footer .h3 
-  {
-    font-size: initial;
-  }
-  
-  footer ul 
-  {
-    list-style-type: none;
-    margin-left: -40px;
-  }
-  footer ul li 
-  {
-    margin-bottom: 10px;
-  }
-  
-  footer a 
-  {
-    text-decoration: none;
-    color: black;
-  }
-  
-  footer div 
-  {
-    margin-left: -285px;
-  }
-  
+    footer 
+    {
+        background-color: #f2f2f2;
+        height: auto;
+        padding-bottom: 20px;
+        padding-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+        
+    footer .h3 
+    {
+        font-size: initial;
+    }
+    
+    footer ul 
+    {
+        list-style-type: none;
+        margin-left: -40px;
+    }
+    footer ul li 
+    {
+        margin-bottom: 10px;
+    }
+    
+    footer a 
+    {
+        text-decoration: none;
+        color: black;
+    }
+    
+    footer div 
+    {
+        margin-left: -285px;
+    }
+    footer a:hover 
+    {
+        font-weight: 600;
+        color: #0065FC;
+    }
 
 
 @media only screen and (max-width: 649px){
